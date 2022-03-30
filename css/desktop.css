@@ -1,0 +1,91 @@
+
+body {
+    background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
+    background-position: right 57vw bottom 61vh, left 30vw top 20vh;
+}
+
+.container {
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.container-description,
+.container-rate {
+    margin-top: 16rem;
+    max-width: 120rem;
+}
+
+.container-description {
+    width: 40%;
+}
+
+.container-rate {
+    width: 60%;
+}
+
+.container-description h1,
+.container-description p {
+    padding: 0 1rem 0 0;
+    text-align: left;
+}
+
+.container-description h1 {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+}
+
+.container-rate div {
+    display: flex;
+    width: 70%;
+    height: 6rem;
+}
+
+.container-rate div:first-child {
+    margin-right: 12rem;
+}
+
+.container-rate div:nth-child(2) {
+    margin-right: 6rem;
+}
+
+.container-rate div:last-child {
+    margin-right: 0rem;
+}
+
+.container-rate div span:first-child {
+    margin-left: 3rem;
+}
+
+.container-rate div span {
+    margin: 2rem .8rem 0 0;
+}
+
+.container-rate div p {
+    margin: 2.3rem 0 0 3rem;
+}
+
+.container-testimonials {
+    display: flex;
+    width: 100%;
+    max-width: 144rem;
+    height: auto;
+    margin: 0;
+
+}
+
+.container-testimonials article {
+    width: 38rem;
+    margin-right: 3rem;
+}
+
+.container-testimonials article:first-child{
+    margin-bottom: 16rem;    
+}
+
+.container-testimonials article:nth-child(2) {
+    margin: 4rem 0 14rem 0;
+}
+
+.container-testimonials article:last-child {
+    margin: 6rem 0 12rem 3rem;
+}

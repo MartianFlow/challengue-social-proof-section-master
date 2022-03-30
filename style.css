@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    background-color: #fff;
+    background-image: url('./images/bg-pattern-top-mobile.svg'),url('./images/bg-pattern-bottom-mobile.svg');
+    background-repeat: no-repeat,no-repeat;
+    background-position: top,bottom;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100vh;
+}
+
+.container-description {
+    width: 90%;
+    min-width: 36rem;
+    max-width: 40rem;
+    height: auto;
+    margin: 7rem auto 4rem auto;
+}
+
+.container-description h1 {
+    padding: 0 5rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3rem;
+    text-shadow: 0.3px 1px hsl(300, 43%, 22%);
+    color: hsl(300, 43%, 22%);
+}
+
+.container-description p {
+    margin-top: 3rem;
+    padding: 0 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.7rem;
+    text-shadow: 0.3px 1px #B3A8B1;
+    color: #B3A8B1;
+}
+
+.container-rate {
+    width: 90%;
+    min-width: 36rem;
+    max-width: 42rem;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container-rate div {
+    width: 95%;
+    height: 8rem;
+    margin: 1.5rem auto 0 auto;
+    border-radius: 1.2rem;
+    text-align: center;
+    background-color: #F7F2F8;
+}
+
+.container-rate div span {
+    display: inline-block;
+    margin: 1.5rem  .5rem 0 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url('./images/icon-star.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+.container-rate p {
+    margin-top: 1.7rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-shadow: 0.3px 1px #B3A8B1;
+    color: hsl(300, 43%, 22%);
+}
+
+.container-testimonials {
+    width: 90%;
+    min-width:  36rem;
+    max-width: 42rem;
+    height: auto;
+    margin: 5rem auto 8rem auto;
+}
+
+.container-testimonials article {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem ;
+    padding: 4rem;
+    border-radius: 1.2rem;
+    background-color: hsl(300, 43%, 22%);
+}
+
+.container-testimonials article:last-child {
+    margin-bottom: 10rem;
+}
+
+.container-testimonials article span {
+    display: inline-block;
+    width: 4.5rem;
+    height: 4.5rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.container-testimonials article .first-img {
+    background-image: url('./images/image-colton.jpg'); 
+}
+
+.container-testimonials article .second-img {
+    background-image: url('./images/image-irene.jpg'); 
+}
+
+.container-testimonials article .third-img {
+    background-image: url('./images/image-anne.jpg'); 
+}
+
+.container-testimonials article div {
+    display: inline-block;
+    margin-left: 2.5rem;
+    vertical-align: .5rem;
+}
+
+.container-testimonials article div h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: hsl(300, 9%, 86%);
+    opacity: .7;
+}
+
+.container-testimonials article div p {
+    margin-top: .4rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: hsl(333, 80%, 67%);
+    opacity: .6;
+}
+
+.container-testimonials p {
+    margin-top: 2.5rem;
+    padding-right:1rem ;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: hsl(300, 9%, 86%);
+    opacity: .7;
+}
